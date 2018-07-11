@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.prahastha.myfirstappsjava">
 
+    <!--Package name merupakan sebagai identitas unik dari sebuahaplikasi, -->
+    <!--juga sebagai acuan play store untuk menandai apakah aplikasi ini sudah ada apa belum-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,5 +20,9 @@
             </intent-filter>
         </activity>
     </application>
+
+    <!--Komponen Aplikasi-->
+    <!--Berfungsi untuk mendiskripsikan komponen dari aplikasi mulai dari activity, services, -->
+    <!--broadcast receiver, dan content provider.-->
 
 </manifest>
